@@ -1,0 +1,45 @@
+UBUNTU:
+
+mkdir MisPruebas
+mkdir MisPruebas/Mis_documentos
+cd /home/marcos/marcos/MisPruebas/Mis_documentos
+cd ~
+cd marcos cd MisPruebas cd Mis_documentos
+cd ..
+mkdir Mis_documentos/Mis_enlaces
+cd Mis_documentos touch doc_1.txt
+ln -s doc_1.txt Mis_enlaces/enlace
+cp /var/log/syslog mi_syslog
+cd Mis_enlaces ln -s mi_syslog mi_link_a_syslog
+cd .. cd..
+ls _R
+cd ~
+mkdir MisFicheros 
+touch MisFicheros/Fichero_1.txt touch MisFicheros/Fichero_22.txt touch MisFicheros/Fichero_333.txt
+echo "Hola Mundo" > Fichero_1.txt
+echo "estoy usando Linux" > Fichero_22.txt
+echo "y practicando los primeros comandos" > Fichero_333.txt
+cat Fichero_1.txt
+cat Fichero_22.txt
+cat Fichero_333.txt
+cat Fichero*.txt
+cp Fichero_1.txt fichero_1.txt
+mv Fichero_22.txt Mi_fichero22.txt
+touch BACKUP.5
+touch BACKUP.66
+touch BACKUP.777
+ls -l
+cd ~ ls -l
+mv MisFicheros MisPruebas
+cd MisPruebas/MisFicheros
+tar cvf Backups.tar BACK*
+tar cvfz Backup_compress1.tgz BACK*
+tar cvfj Backup_compress2.bz2 BACK*
+
+
+
+
+
+
+
+
